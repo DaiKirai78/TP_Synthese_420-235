@@ -1,6 +1,9 @@
 package payables;
 
 public class EmployeHoraire extends Employe {
+
+	public final double HEURES_TEMPS_COMPLET = 40;
+	public final double RATIO_TEMPS_SUPP = 1.5;
 	private double tauxHoraire;
 	private double heuresTravaillees;
 
@@ -37,6 +40,24 @@ public class EmployeHoraire extends Employe {
 	// TODO 04-- Ajoutez tout le code nécessaire pour coder la classe au complet coder la classe au completen vous basant sur le diagramme UML
 	//         ainsi que la gestion des erreurs possibles si nécessaire
 	//
+
+	@Override
+	public double getMontantPaiement() {
+		return getHeuresTravaillees() * getTauxHoraire();
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%s: %s%n%s: %,.2f",
+				getCategorieString(), super.toString(), "salaire horaire", getMontantPaiement());
+	}
+
+	public String toStringAffichage() {
+		String info = super.toStringAffichage();
+		info += " Salaire [" + this.getMontantPaiement()  + "]";
+		return info;
+	}
+
 	public String toStringSauvegarde() {
 		String info = String.format("ID [%3d] Nom complet [%20s] NAS [%9s] Taux Horaire [%4.2f] Heures travaillées [%4.2f] Mémo [%15s] Catégorie [%20s]",
 				this.getID(), this.getNomComplet(), this.getNumeroAssuranceSociale(),
