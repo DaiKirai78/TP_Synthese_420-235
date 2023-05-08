@@ -11,6 +11,15 @@ public class EmployeSalarie extends Employe {
 		super(ID, n, nas, m);
 		salaireHebdomadaire = s;
 	}
+
+	public double getSalaireHebdomadaire() {
+		return salaireHebdomadaire;
+	}
+
+	public void setSalaireHebdomadaire(double salaire) {
+		salaireHebdomadaire = salaire;
+	}
+
 	@Override
 	public double getMontantPaiement() {
 		return getSalaireHebdomadaire();

@@ -17,6 +17,8 @@ public abstract class Employe extends Payable {
 		return numeroAssuranceSociale;
 	}
 
+	public abstract double getMontantPaiement();
+
 	@Override
 	public String toString() {
 		return String.format( "%s \nnuméro d'assurance sociale: %s",
