@@ -3,7 +3,7 @@ package payables;
 // TODO 01-- Ajoutez tout le code nécessaire pour coder la classe au complet en vous basant sur le diagramme UML
 //         ainsi que la gestion des erreurs possibles si nécessaire
 //
-public class EmployeSalarieAvecCommission extends EmployeSalarie {
+public class EmployeSalarieAvecCommission extends EmployeSalarie implements Commission {
     private double tauxCommission;
     private double ventesBrutes;
 
