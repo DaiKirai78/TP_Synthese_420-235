@@ -12,6 +12,7 @@ public class GestionnaireInventaire {
     private BaseDonnees baseDonnees;
 
     public GestionnaireInventaire() {
+        baseDonnees = new BaseDonnees();
     }
 
     public void ajouterPayable(Payable p) throws ExceptionPayableExisteDeja {
@@ -26,7 +27,10 @@ public class GestionnaireInventaire {
         baseDonnees.trouverParID(ID).augmenterEcheance(e);
     }
 
-    public void diminuerEcheancePayable(int ID, int e) throws ExceptionEcheanceInsuffisante {
+    public void diminuerEcheancePayable(int ID, int e) throws ExceptionEcheanceInsuffisante, ExceptionPayableIntrouvable {
+        if (baseDonnees.trouverParID(ID) == null) {
+            throw new ExceptionPayableIntrouvable(ID);
+        }
         baseDonnees.trouverParID(ID).diminuerEcheance(e);
     }
 

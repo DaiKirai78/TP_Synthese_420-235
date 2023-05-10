@@ -11,6 +11,7 @@ public class EmployeSalarieAvecCommission extends EmployeSalarie implements Comm
         super(ID, n, nas, s, m);
         tauxCommission = tC;
         ventesBrutes = vB;
+        categorie = Categorie.EmployeSalarieAvecCommission;
     }
 
     public double getTauxCommission() {
@@ -39,22 +40,21 @@ public class EmployeSalarieAvecCommission extends EmployeSalarie implements Comm
 
     @Override
     public String toString() {
-        return String.format("%s: %s%n%s: %,.2f%n%s: %,.2f",
-                getCategorieString(), super.toString(), "paiement dû", getTauxCommission(),
-                 "ventes brutes", getVentesBrutes());
+        return String.format("%s; %s: %,.2f",
+                super.toString(), "taux de commission", getTauxCommission());
     }
 
     public String toStringAffichage() {
         String info = super.toStringAffichage();
-        info += " Paiement dû [" + this.getTauxCommission()  + "]\n" +
-         " Ventes brutes [" + this.getVentesBrutes() + "]";
+        info += " Commission [" + this.getTauxCommission()  + "] " +
+         "Ventes [" + this.getVentesBrutes() + "]";
         return info;
     }
 
     public String toStringSauvegarde() {
         String info = String.format("ID [%3d] Nom complet [%20s] NAS [%9s] Salaire [%6.2f] Mémo [%15s] Catégorie [%20s] Taux commission [%6.2f] Ventes brutes [%,.2f]",
-                super.getID(), super.getNomComplet(), super.getNumeroAssuranceSociale(),
-                super.getSalaireHebdomadaire(), super.getMemo(), super.getCategorieString(),
+                this.getID(), this.getNomComplet(), this.getNumeroAssuranceSociale(),
+                super.getSalaireHebdomadaire(), this.getMemo(), this.getCategorieString(),
                 this.getTauxCommission(), this.getVentesBrutes());
         return info;
     }

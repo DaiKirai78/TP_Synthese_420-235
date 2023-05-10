@@ -51,18 +51,20 @@ public class Facture extends Payable {
 	}
 
 	public double getMontantPaiement() {
-		return getPrixParItem();
+		return getPrixParItem() * getQuantite();
 	}
 
 	@Override
 	public String toString() {
-		return String.format("%s: %s%n%s: %,.2f",
-				getCategorieString(), super.toString(), "montant facture", getMontantPaiement());
+		return String.format("%s:%n%s: %s (%s)%n%s: %s%n%s: %s",
+				getCategorieString(), "numéro de la pièce", getNumeroPiece(), getDescriptionPiece(),
+				"quantité", getQuantite(), "prix par facture", getPrixParItem());
 	}
 
 	public String toStringAffichage() {
 		String info = super.toStringAffichage();
-		info += " Facture [" + this.getMontantPaiement()  + "]";
+		info += " Code [" + getNumeroPiece()  + "] Description [" + getDescriptionPiece() +
+		"] Quantité [" + getQuantite() + "] Prix [" + getPrixParItem() + "]";
 		return info;
 	}
 

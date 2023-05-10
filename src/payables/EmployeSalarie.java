@@ -10,6 +10,7 @@ public class EmployeSalarie extends Employe {
 	public EmployeSalarie(int ID, String n, String nas, double s, String m) {
 		super(ID, n, nas, m);
 		salaireHebdomadaire = s;
+		categorie = Categorie.EmployeSalarie;
 	}
 
 	public double getSalaireHebdomadaire() {
@@ -33,7 +34,7 @@ public class EmployeSalarie extends Employe {
 
 	public String toStringAffichage() {
 			String info = super.toStringAffichage();
-			info += " Salaire [" + this.getSalaireHebdomadaire()  + "]";
+			info += " Salaire hebdomadaire [" + this.getSalaireHebdomadaire()  + "]";
 			return info;
 	}
 

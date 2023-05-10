@@ -48,13 +48,13 @@ public class EmployeHoraire extends Employe {
 
 	@Override
 	public String toString() {
-		return String.format("%s: %s%n%s: %,.2f",
-				getCategorieString(), super.toString(), "salaire horaire", getMontantPaiement());
+		return String.format("%s: %s%n%s: %,.2f; %s: %.2f",
+				getCategorieString(), super.toString(), "taux horaire", getTauxHoraire(), "heures travaillées", getHeuresTravaillees());
 	}
 
 	public String toStringAffichage() {
 		String info = super.toStringAffichage();
-		info += " Salaire [" + this.getMontantPaiement()  + "]";
+		info += " Salaire [" + this.getTauxHoraire()  + "]\nHeures [" + this.getHeuresTravaillees() + "]";
 		return info;
 	}
 

@@ -53,11 +53,14 @@ public abstract class Payable {
 	public abstract double getMontantPaiement();
 
 	public String getCategorieString() {
-		return categorie.toString();
+		try {
+			return categorie.toString();
+		} catch(NullPointerException e) {}
+		return "";
 	}
 
 	public String toStringAffichage() {
-		String info = String.format("ID [%3d] Catégorie [%25s] Mémo [%15s] Échéance [%3d] Paiement [%10.2f]",
+		String info = String.format("ID [%3d] Catégorie [%25s] Mémo [%15s] Échéance [%3d]\nPaiement [%10.2f]",
 				this.ID, this.getCategorieString(), this.getMemo(), this.getEcheanceJours(), this.getMontantPaiement());
 		return info;
 	}
