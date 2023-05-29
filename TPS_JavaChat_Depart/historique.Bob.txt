@@ -1,0 +1,4 @@
+serveur: Bonjour Bob!
+serveur: # Bob s'est connecté (2 utilisateurs en ligne)
+allo
+c'est bob
