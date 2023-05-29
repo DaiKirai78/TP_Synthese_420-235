@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TP_v2/TPS_H23_V2_Depart/Original/TS_H23_235_depart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TS_H23-master" vcs="Git" />
+  </component>
+</project>
