@@ -10,11 +10,12 @@ import inventaire.GestionnaireInventaire;
 import gui.GUIGestionnaireInventaire;
 
 public class Main {
-    // TODO 15-- Codez la fonction lireInventaire ici
+
+    // TODOS 15 et 16 n'ont pas été fait dans cette version du TP. Cette partie du code est réalisée dans le TP V2.
+    // Même chose pour les TODOS concernant l'interface graphique.
     public static void lireInventaire(String nomFichier, GestionnaireInventaire gestionnaireInventaire) {
 
     }
-    // TODO 16-- Codez la fonction ecrireInventaire ici
     public static void ecrireInventaire(String nomFichier, Payable[] payables) {
 
     }
