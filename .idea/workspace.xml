@@ -5,7 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de6ef151-0d1c-4e22-98d3-115d8a224c2d" name="Changes" comment="Ajout de la JavaDoc dans tous les classes du travail.">
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/TPS_JavaChat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/TPS_JavaChat_Depart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/historique.Alice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/historique.Bob.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/historique.test.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/historique.test.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/CLIClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/ChatClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/ChatServer$AdminListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/ChatServer$ClientListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/ChatServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/EchoListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/GUIClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/GUIClient$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/GUIClient$ConnexionDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/GUIClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/Historique.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/MessageEntrant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/MessageEntrantPrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/MessagePrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/MessageSortant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/out/production/TPS_JavaChat/messages/MessageSortantPrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/CLIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/EchoListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/GUIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/Historique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/MessageEntrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/MessageEntrantPrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/MessagePrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/MessageSortant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPS_JavaChat_Depart/src/messages/MessageSortantPrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/exceptions/ExceptionEcheanceInsuffisante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/exceptions/ExceptionPayableExisteDeja.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/exceptions/ExceptionPayableIntrouvable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/gui/GUIErreurDialogue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/gui/GUIGestionnaireInventaire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/gui/GUIPayableDialogue$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/gui/GUIPayableDialogue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/inventaire/BaseDonnees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/inventaire/GestionnaireInventaire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/inventaire/NoeudPayable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/Categorie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/Commission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/Employe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/EmployeHoraire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/EmployeHoraireAvecCommission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/EmployeSalarie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/EmployeSalarieAvecCommission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/Facture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TS_H23-master/payables/Payable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exercices/Vecteurs/Vecteur_exercice1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercices/Vecteurs/Vecteur_exercice1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685318509164</updated>
-      <workItem from="1685318510385" duration="15986000" />
+      <workItem from="1685318510385" duration="16781000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la JavaDoc dans tous les classes du travail.">
       <created>1685349067296</created>
